@@ -1,0 +1,26 @@
+{
+  "name": "week8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meesha94/SQLMoviesDatabase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meesha94/SQLMoviesDatabase/issues"
+  },
+  "homepage": "https://github.com/meesha94/SQLMoviesDatabase#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.1",
+    "yargs": "^17.3.1"
+  }
+}
