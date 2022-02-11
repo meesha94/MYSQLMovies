@@ -8,7 +8,8 @@ const app = async() => {
     if (argv.add){
         const filmObj ={
             name: argv.title,
-            actor: argv.actor
+            actor: argv.actor,
+            rating: argv.rating
         }
         await addFilm(filmObj)
     } else if (argv.list){
