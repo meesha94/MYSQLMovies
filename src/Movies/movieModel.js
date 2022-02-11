@@ -10,5 +10,7 @@ const Film = sequelize.define('Netflix',{
         type : DataTypes.STRING,
         allowNull:false
     }
+    
+    
 })
 module.exports = Film;
